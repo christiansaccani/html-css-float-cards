@@ -9,8 +9,7 @@ body {
     font-weight: 400;
     padding-top: 50px;
     width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 /* header */
@@ -41,12 +40,12 @@ div.box {
     height: 120px;
     background-color: #0f0e17;
     display: inline-block;
-    margin: 30px auto;
+    margin: 30px 10px;
     box-shadow: #0f0e17 2px 2px 5px;
 }
 
 div.box:nth-child(2), div.box:nth-child(5) {
-    margin: auto 40px;
+    margin: 0 40px;
 }
 
 div.text-box {
