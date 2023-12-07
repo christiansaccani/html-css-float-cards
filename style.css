@@ -4,9 +4,18 @@
     box-sizing: border-box;
 }
 
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
     padding-top: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* header */
@@ -29,3 +38,41 @@ header p {
 }
 
 /* fine header */
+
+/* main */ 
+.profile {
+    height: 120px;
+    float: left;
+}
+
+div.box {
+    width: calc(100% / 3);
+    height: 120px;
+    background-color: #0f0e17;
+    display: inline-block;
+}
+
+div.text-box {
+    display: inline-block;
+    color: white;
+    padding: 18px;
+}
+
+h2 {
+    display: inline-block;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 5px 3px;
+}
+
+p.job {
+    font-size: 15px;
+    padding: 3px;
+}
+
+address {
+    font-size: 15px;
+    padding: 3px;
+    font-style: normal;
+    color: #2bb3ec;
+}
