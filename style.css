@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.clearfix::after{
+    content: '';
+    display: table;
+    clear:both;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
@@ -31,13 +37,13 @@ h1 {
 /* Profili team */
 
 .profile {
-    height: 120px;
+    height: 130px;
     float: left;
 }
 
 div.box {
     width: calc(90% / 3);
-    height: 120px;
+    /* height: 120px; */
     background-color: #0f0e17;
     display: inline-block;
     margin: 30px 10px;
