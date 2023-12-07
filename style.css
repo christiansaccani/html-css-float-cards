@@ -23,7 +23,7 @@ h1 {
     font-weight: 900;
     color: #e53170;
     font-size: 36px;
-    margin-bottom: 60px;
+    margin-bottom: 55px;
 }
 
 header p {
@@ -42,7 +42,7 @@ main {
 }
 
 div.box {
-    width: calc(80% / 3);
+    width: calc(90% / 3);
     height: 120px;
     background-color: #0f0e17;
     display: inline-block;
