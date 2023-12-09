@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+/* senza clearfix il programma risulta funzionare comunque, 
+   in questo caso è meglio rimuoverlo?  */
+
 .clearfix::after{
     content: '';
     display: table;
@@ -43,7 +46,6 @@ h1 {
 
 div.box {
     width: calc(90% / 3);
-    /* height: 120px; */
     background-color: #0f0e17;
     display: inline-block;
     margin: 30px 10px;
